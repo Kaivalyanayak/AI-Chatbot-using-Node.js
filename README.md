@@ -19,5 +19,5 @@ It uses Groq's LLaMA 3.3 model to generate responses and MongoDB to store chat h
 ## Setup
 1. Clone the repo
 2. Run `npm install`
-3. Create a `.env` file with:GROQ_API_KEY=your_groq_key_here
+3. Create a `.env` file with: GROQ_API_KEY =your_groq_key_here
 4. Make sure MongoDB is installed and running locally (or update MONGO_URI to point to a MongoDB Atlas cluster)
