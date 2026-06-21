@@ -1,0 +1,26 @@
+{
+  "name": "interactive-chatbot",
+  "version": "1.0.0",
+  "description": "Interactive Chatbot using Node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Kaivalya Nayak",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "body-parser": "^2.3.0",
+    "dotenv": "^17.4.2",
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "marked": "^18.0.5",
+    "mongoose": "^9.7.1",
+    "openai": "^6.44.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
